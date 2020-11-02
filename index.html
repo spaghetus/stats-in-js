@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Probability Demo</title>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script src="https://cdn.jsdelivr.net/npm/mathjs@7.6.0/dist/math.min.js"></script>
+	<link rel="stylesheet" href="./index.css">
+	<script async defer type="module" src="./index.js"></script>
+</head>
+
+<body>
+	<div class="top-bar">
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						Probability Function<br>
+						p = <input type="text" id="expression"><br>
+						<div id="expression-valid">
+
+						</div>
+					</td>
+					<td>
+						Real Sampling<br>
+						count = <input type="number" id="sample-count" value="1000"><br>
+						buckets = <input type="number" id="bucket-count" value="10"><br>
+						<button id="generate-samples">Go</button>
+						<button id="clear-samples">Clear</button>
+						<span id="sample-status">Cleared</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<canvas id="chart"></canvas>
+</body>
+
+</html>

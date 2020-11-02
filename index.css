@@ -1,0 +1,24 @@
+body, html {
+	height: 100%;
+	overflow: hidden;
+}
+* { margin: 0; padding: 0;}
+.top-bar {
+	padding: 10px;
+	text-align: center;
+	background-color: lightgray;
+	/* border-bottom: 1px;
+	border-color: black;
+	border-bottom-style: solid; */
+	box-shadow: 0px 0px 2.5px 5px lightgray;
+}
+.side-borders {
+	border-radius: 1px;
+	border-color: black;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
